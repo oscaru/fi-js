@@ -536,15 +536,15 @@ var ctrl = ( function() {
 
     function addTerm(w)
     {
-        var doEnter = ( this.prepBuildingOrder.length == 0 );
+        var doEnter = ( prepBuildingOrder.length == 0 );
 
         ctrl.inject( w, doEnter, false );
 
         if ( !doEnter ) {
-                ctrl.inject( this.prepBuildingOrder, false, false );
+                ctrl.inject( prepBuildingOrder, false, false );
         }
 
-        this.prepBuildingOrder = "";
+        prepBuildingOrder = "";
     }
 
     function hasScore() {

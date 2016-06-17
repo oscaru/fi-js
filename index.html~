@@ -131,7 +131,7 @@
                                         style="vertical-align:middle;"
                                         src="res/throw.png"
                                         title="tirar"
-                                        onClick="ctrl.prepBuildingOrder = ' a '; ctrl.inject( 'lanza ', false ); return false;">
+                                        onClick="prepBuildingOrder = ' a '; ctrl.inject( 'lanza ', false ); return false;">
                         </td>
                         </tr>
                         <tr>
@@ -182,7 +182,7 @@
                                         style="vertical-align:middle;"
                                         src="res/give.png"
                                         title="dar"
-                                        onClick="ctrl.prepBuildingOrder = ' a '; ctrl.inject( 'dale ', false ); return false;">
+                                        onClick="prepBuildingOrder = ' a '; ctrl.inject( 'dale ', false ); return false;">
                         </td>
                         <td>
 						<img id="btTurnOn" alt="enciende" width="32" height="32"

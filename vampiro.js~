@@ -611,7 +611,7 @@ objTrozoDeMadera.preExamine = function() {
 objTrozoDeMadera.afilado = false;
 
 objTrozoDeMadera.preAttack = function() {
-    return actions.execute( "sharpen", "madero" );
+    return actions.execute( "sharpen", "cuchillo" );
 }
 
 objTrozoDeMadera.preSharpen = function() {
